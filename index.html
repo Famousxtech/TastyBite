@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Bites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- NAVBAR (separate section at the very top) -->
+  <nav class="navbar">
+    
+    <div class="brand">
+      <img class="logo" src="./logo/Tasty bites logo-cot.png" alt="logo">
+      <h3>Tasty Bite</h3> 
+    </div>
+
+    <!-- Hamburger for mobile -->
+    <div class="hamburger">
+    <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+        <li><a href="#home" class="nav-item">Home</a></li>
+        <li><a href="#menu" class="nav-item">Menu</a></li>
+        <li><a href="#order" class="nav-item">Order</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+        <li><a href="./book-event.html" class="event-btn nav-item">Book Event</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO (below navbar now) -->
+  <header class="hero-header" id="home">
+    <div class="hero-text">
+        <h1>Welcome to Tasty Bite</h1>
+        <p>Delicious Nigerian meals made fresh daily.</p>
+        <a href="#menu" class="explore-btn">Explore Menu</a>
+    </div>
+  </header>
+
+
+
+    
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="categories-scroll">
+        <div class="category-card soups">
+            <h3>Soups</h3>
+            <a href="./soups-category/soup-category.html" class="view-btn">View Category</a>
+        </div>
+        <div class="category-card meals">
+            <h3>Meals</h3>
+            <a href="./meals-category/meals-category.html" class="view-btn">View Category</a>
+        </div>
+        <div class="category-card chops">
+            <h3>Small Chops</h3>
+            <a href="./smallchops-category/smallchops-category.html" class="view-btn">View Category</a>
+        </div><div class="category-card sauces">
+            <h3>Sauces</h3>
+            <a href="./sauce-category/sauce-category.html" class="view-btn">View Category</a>
+        </div>
+        <div class="category-card custom">
+            <h3>Pepper soups</h3>
+            <a href="./peppersoup-category/peppersoup-category.html" class="view-btn">View Category</a>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <p>Ready to enjoy a tasty meal? Place your order now via Whatsapp!</p>
+        <a href="https://wa.me/09076929934" target="_blank" class="order-btn">Order On Whatsapp</a>
+    </section>
+
+    <section id="book-event" class="book-event-section">
+        <h2>Books Us For Your Event</h2>
+        <p>
+         <a href="book-event.html" class="book-link">Fill in the form to make your booking</a>
+        </p>
+    </section>
+
+   
+      <footer id="contact">
+        <h2>Contact Us</h2>
+      
+        <div class="footer-content">
+          <p>📧 <a href="mailto:tastybites@gmail.com">tastybites@gmail.com</a></p>
+          <p> <a href="tel:09163991308">📞 09163991308 | 📍 Lagos, Nigeria</a></p>
+      
+          <div class="socials">
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2025 <span>Tasty Bite</span>. All rights reserved.</p>
+        </div>
+      </footer>
+      
+    
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/234XXXXXXXXXX" class="whatsapp-float" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Go to top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+        <path d="M5 15l7-7 7 7"/>
+      </svg>
+    </button>
+    
+<script src="script.js"></script>
+      
+
+
+</body>
+</html>

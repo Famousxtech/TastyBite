@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Confirmation - Tasty Bite Events</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #fff7e6, #ffe0b2);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header {
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #e67e22;
+    }
+
+    header p {
+      color: #555;
+      font-size: 1rem;
+      margin-top: 0.3rem;
+    }
+
+    .confirmation-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .confirmation-box h2 {
+      color: #27ae60;
+      margin-bottom: 10px;
+    }
+
+    .confirmation-box p {
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .home-btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #e67e22;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: 0.3s;
+      font-weight: 600;
+    }
+
+    .home-btn:hover {
+      background: #cf711f;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 600px) {
+      .confirmation-box {
+        padding: 1.5rem;
+      }
+
+      .home-btn {
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tasty Bite Events</h1>
+    <p>Book your event catering with ease — let’s make it unforgettable!</p>
+  </header>
+
+  <div class="confirmation-box">
+    <h2>🎉 Booking Confirmed!</h2>
+    <p>Thank you for booking with <strong>Tasty Bite Events</strong>.<br>
+    We’ll contact you shortly to finalize your arrangements.</p>
+    <a href="book-event.html" class="home-btn">← Back to Booking Form</a>
+  </div>
+
+</body>
+</html>

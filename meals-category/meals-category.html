@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tasty Bite | Meal Menu</title>
+  <link rel="stylesheet" href="meals-category.css" />
+ <!-- Font Awesome (icons) -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+
+   <button class="back-btn" onclick="goBack()"> 
+    <img src="../logo/arrow.left.png" alt="arrow" class="arrow"> 
+  </button>
+
+  
+    <!-- Hamburger for mobile -->
+     <!-- NAVBAR (separate section at the very top) -->
+  <nav class="navbar">
+    
+    <div class="brand">
+      <img class="logo" src="../logo/Tasty bites logo-cot.png" alt="logo">
+      <h3>Tasty Bite</h3> 
+    </div>
+
+    <!-- Hamburger for mobile -->
+    <div class="hamburger">
+    <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+        <li><a href="../index.html#home" class="nav-item">Home</a></li>
+        <li><a href="../index.html#menu" class="nav-item">Menu</a></li>
+        <li><a href="../index.html#order" class="nav-item">Order</a></li>
+        <li><a href="../index.html#contact" class="nav-item">Contact</a></li>
+        <li><a href="./book-event.html" class="event-btn nav-item">Book Event</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- === HEADER === -->
+  <header class="header">
+    <h1>Tasty Bite Soups</h1>
+    <p>Select your favorite Nigerian Meals</p>
+  </header>
+
+  <!-- === SOUP GRID === -->
+<section class="soup-container">
+
+  <!-- 1 -->
+  <div class="soup-card" 
+       data-soup="Jollof Rice"
+       data-ingredients="Long-gain rice cooked in a rich tomato and pepper blend with onions ad spices, served with your choice of fried chicken, turkey, beef, or fish"
+       data-price1="8000"
+       data-price3="24000"
+       data-price5="40000">
+    <img src="./meals/jollof rice.JPG" alt="Jollof Rice" class="soup-image">
+    <h3 class="soup-name">Jollof Rice</h3>
+    <p class="soup-price-range">₦8,000 - ₦40,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 2 -->
+  <div class="soup-card"
+       data-soup="Fried Rice"
+       data-ingredients="Flavorful stir-fried rice with mixed vegetables like carrots, green peas, and sweet corn, served with your choice of fried chicken, turkey, beef or fish"
+       data-price1="8500"
+       data-price3="25500"
+       data-price5="42500">
+    <img src="./meals/fried rice.JPG" alt="Fried Rice" class="soup-image">
+    <h3 class="soup-name">Fried Rice</h3>
+    <p class="soup-price-range">₦8,500 - ₦42,500</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 3 -->
+  <div class="soup-card"
+       data-soup="White Rice & Stew"
+       data-ingredients="Soft boiled wgite rice served with a spicy tomato stew, accompanied by your choice of fried chicken, turkey, beef, or fish."
+       data-price1="8000"
+       data-price3="24000"
+       data-price5="40000">
+    <img src="./meals/white rice & stew.JPG" alt="White Rice & Stew" class="soup-image">
+    <h3 class="soup-name">Rice & Stew</h3>
+    <p class="soup-price-range">₦8,000 - ₦40,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 4 -->
+  <div class="soup-card"
+       data-soup="Ofada Rice & Stew"
+       data-ingredients="Local unpolished rice served with spicy Ofada pepper sauces(Ayamase), and your choice of assorted meat, turkey, or beef"
+       data-price1="9000"
+       data-price3="27000"
+       data-price5="45000">
+    <img src="./meals/ofada rice & stew.JPG" alt="Ofada Rice & Stew" class="soup-image">
+    <h3 class="soup-name">Ofada Rice & Stew</h3>
+    <p class="soup-price-range">₦9,000 - ₦45,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 5 -->
+  <div class="soup-card"
+       data-soup="Coconut Rice"
+       data-ingredients="Aromatic rice cooked with cocunut milk, peppers, and spices, served with your choice of fried chicken, turkey, or fish"
+       data-price1="7500"
+       data-price3="22500"
+       data-price5="37500">
+    <img src="./meals/cocunut rice.JPG" alt="Coconut Rice" class="soup-image">
+    <h3 class="soup-name">Coconut Rice</h3>
+    <p class="soup-price-range">₦7,500 - ₦37,500</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 6 -->
+  <div class="soup-card"
+       data-soup="Yam Porridge"
+       data-ingredients="Soft yam chunks cooked in a seasoned pepper sauce with pam oil and vegetables, served with your choice of beef, fish, or turkey "
+       data-price1="7000"
+       data-price3="21000"
+       data-price5="35000">
+    <img src="./meals/yam porridge.JPG" alt="Yam Porridge" class="soup-image">
+    <h3 class="soup-name">Yam Porridge</h3>
+    <p class="soup-price-range">₦7,000 - ₦35,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 7 -->
+  <div class="soup-card"
+       data-soup="Spaghetti Jollof"
+       data-ingredients="Spaghetti cooked in a peppered tomato sauce with onions and spices, served with your choice of fried chicken, turkey, or beef"
+       data-price1="8000"
+       data-price3="24000"
+       data-price5="40000">
+    <img src="./meals/spaghetti jollof.PNG" alt="Spaghetti Jollof" class="soup-image">
+    <h3 class="soup-name">Spaghetti Jollof</h3>
+    <p class="soup-price-range">₦8,000 - ₦40,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 8 -->
+  <div class="soup-card"
+       data-soup="Ewa Agoyin"
+       data-ingredients="Mashed beans served with spicy peper sauce, with your choice of fried plantain, beef, or fish"
+       data-price1="7000"
+       data-price3="21000"
+       data-price5="35000">
+    <img src="./meals/ewa agoyin.JPG" alt="Ewa Agoyin" class="soup-image">
+    <h3 class="soup-name">Ewa Agoyin</h3>
+    <p class="soup-price-range">₦7,000 - ₦35,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 9 -->
+  <div class="soup-card"
+       data-soup="Beans & Plantain"
+       data-ingredients="Nigerian-style beans served with fried ripe plantains and your choice of stew with beef, fish, or turkey"
+       data-price1="7000"
+       data-price3="21000"
+       data-price5="35000">
+    <img src="./meals/beans & plantain.JPG" alt="Beans & Plantain" class="soup-image">
+    <h3 class="soup-name">Beans & Plantain</h3>
+    <p class="soup-price-range">₦7,000 - ₦35,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 10 -->
+  <div class="soup-card"
+       data-soup="Fried Yam & Egg Sauce"
+       data-ingredients="Crispy fried yam served with a seasoned tomato and egg sauce"
+       data-price1="6500"
+       data-price3="19500"
+       data-price5="32500">
+    <img src="./meals/fried yam & egg sauce.JPG" alt="Fried Yam & Egg Sauce" class="soup-image">
+    <h3 class="soup-name">Fried Yam & Egg Sauce</h3>
+    <p class="soup-price-range">₦6,500 - ₦32,500</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 11 -->
+  <div class="soup-card"
+       data-soup="Rice and Beans with Stew"
+       data-ingredients="A blend of with rice and beans serves with spicy tomato stew and your choice of beef, fish or turkey."
+       data-price1="8000"
+       data-price3="2400"
+       data-price5="40000">
+    <img src="./meals/white rice & beens.JPG" alt="White Rice and Beans with Stew" class="soup-image">
+    <h3 class="soup-name">White Rice and Beans with Stew</h3>
+    <p class="soup-price-range">₦8,000- ₦40,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 12 -->
+  <div class="soup-card"
+       data-soup="Boiled Yam & Egg Sauce"
+       data-ingredients="Boiled yam slices served with seasoned egg and tomato sauce"
+       data-price1="6,500"
+       data-price3="19500"
+       data-price5="32500">
+    <img src="./meals/Boiled Yam & Egg Sauce.PNG" alt="Boiled Yam & Egg Sauce" class="soup-image">
+    <h3 class="soup-name">Boiled Yam & Egg Sauce</h3>
+    <p class="soup-price-range">6,500 - ₦32,500</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 13 -->
+  <div class="soup-card"
+       data-soup="Rice and Beans Jollof"
+       data-ingredients="Jollof-style rice and beans cooked in a tomato and pepper mix, served with your choice of beef, fish, or turkey."
+       data-price1="8000"
+       data-price3="24000"
+       data-price5="40000">
+    <img src="./meals/rice and beans jollof.JPG" alt="Rice and Beans Jollof" class="soup-image">
+    <h3 class="soup-name">Rice and Beans Jollof</h3>
+    <p class="soup-price-range">8,000 - ₦40,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 14 -->
+  <div class="soup-card"
+       data-soup="Fried Potatoes & Sauce"
+       data-ingredients="Golden fried sweet potatoes served with spicy pepper sauce and your choice of beef, fish, or turkey"
+       data-price1="5500"
+       data-price3="16500"
+       data-price5="27500">
+    <img src="./meals/potatoe and sauce.JPG" alt="Fried Potatoes & Sauce" class="soup-image">
+    <h3 class="soup-name">Fried Potatoes & Sauce</h3>
+    <p class="soup-price-range">5,500 - ₦27,500</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 15 -->
+  <div class="soup-card"
+       data-soup="Beans and Yam Porridge"
+       data-ingredients="Beans and yam cooked together in a tasty pepper sauce with palm oil, served with your choice of beef, fish, or turkey."
+       data-price1="8000"
+       data-price3="24000"
+       data-price5="40000">
+    <img src="./meals/beans & yam porridge.JPG" alt="Beans and Yam Porridge" class="soup-image">
+    <h3 class="soup-name">Beans and Yam Porridge</h3>
+    <p class="soup-price-range">8000 - ₦40,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 16 -->
+  <div class="soup-card"
+       data-soup="Plantain & Egg Sauce"
+       data-ingredients="fried plantains served with seasoned tomato and egg sauce"
+       data-price1="6,500"
+       data-price3="19500"
+       data-price5="32500">
+    <img src="./meals/planatain and egg sauce.JPG" alt="Plantain & Egg Sauce" class="soup-image">
+    <h3 class="soup-name">Plantain & Egg Sauce</h3>
+    <p class="soup-price-range">6,500 - ₦32,500</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+</section>
+
+
+  <!-- === MODAL === -->
+<div class="modal-overlay hidden">
+  <div class="modal">
+    <span class="close-btn">&times;</span>
+
+    <div class="modal-content">
+      <div class="modal-left">
+        <img src="egusi.jpg" alt="Soup Image" class="modal-img" />
+      </div>
+
+      <div class="modal-right modal-details">
+        <h2>Egusi Soup</h2>
+        <p class="modal-price">₦8,000</p>
+
+        <label for="modal-size">Size:</label>
+        <select id="modal-size" class="modal-size">
+          <option>1 Litre</option>
+          <option>3 Litres</option>
+          <option>5 Litres</option>
+        </select>
+
+        <label for="modal-qty">Quantity:</label>
+        <div class="qty-wrapper">
+          <button class="qty-btn minus">−</button>
+          <input type="number" class="modal-qty" min="1" value="1">
+          <button class="qty-btn plus">+</button>
+        </div>
+
+        <button class="modal-order-btn">Order Now</button>
+      </div> <!-- CLOSES modal-right -->
+    </div> <!-- CLOSES modal-content -->
+
+    <!-- ✅ ingredients section OUTSIDE modal-content -->
+    <div class="modal-ingredients"></div>
+
+<!-- === REVIEW SECTION === -->
+<div class="review-section">
+  <h3>Customer Reviews</h3>
+  <div class="reviews-list" id="reviews-list">
+    <p class="no-reviews">No reviews yet. Be the first to share your thoughts!</p>
+  </div>
+
+  <h4>Leave a Review</h4>
+  <form id="review-form">
+    <div class="star-rating">
+      <span class="star" data-value="1">★</span>
+      <span class="star" data-value="2">★</span>
+      <span class="star" data-value="3">★</span>
+      <span class="star" data-value="4">★</span>
+      <span class="star" data-value="5">★</span>
+    </div>
+
+    <input type="text" id="reviewer-name" placeholder="Your name" required>
+    <textarea id="review-text" placeholder="Write your review..." required></textarea>
+    <button type="submit" class="submit-review">Submit Review</button>
+  </form>
+</div>
+
+<footer id="contact">
+  <h2>Contact Us</h2>
+
+  <div class="footer-content">
+    <p>📧 <a href="mailto:tastybites@gmail.com">tastybites@gmail.com</a></p>
+    <p> <a href="tel:09163991308">📞 09163991308 | 📍 Lagos, Nigeria</a></p>
+
+    <div class="socials">
+      <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 <span>Tasty Bite</span>. All rights reserved.</p>
+  </div>
+</footer>
+
+  </div>
+</div>
+
+<footer id="contact">
+  <h2>Contact Us</h2>
+
+  <div class="footer-content">
+    <p>📧 <a href="mailto:tastybites@gmail.com">tastybites@gmail.com</a></p>
+    <p> <a href="tel:09163991308">📞 09163991308 | 📍 Lagos, Nigeria</a></p>
+
+    <div class="socials">
+      <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 <span>Tasty Bite</span>. All rights reserved.</p>
+  </div>
+</footer>
+
+ <!-- Floating WhatsApp Button -->
+ <a href="https://wa.me/234XXXXXXXXXX" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+  </a>
+
+<!-- Back to Top Button -->
+<button id="backToTop" title="Go to top">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+    <path d="M5 15l7-7 7 7"/>
+  </svg>
+</button>
+
+  <script src="meals-category.js"></script>
+  <script src="../script.js"></script>
+</body>
+</html>

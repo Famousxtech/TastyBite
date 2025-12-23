@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Tasty Bite | Small Chops</title>
+<link rel="stylesheet" href="smallchops-category.css">
+<!-- Font Awesome (icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="../style.css">
+
+
+</head>
+<body>
+
+  <button class="back-btn" onclick="goBack()"> 
+    <img src="../logo/arrow.left.png" alt="arrow" class="arrow"> 
+  </button>
+
+ 
+    <!-- Hamburger for mobile -->
+     <!-- NAVBAR (separate section at the very top) -->
+  <nav class="navbar">
+    
+    <div class="brand">
+      <img class="logo" src="../logo/Tasty bites logo-cot.png" alt="logo">
+      <h3>Tasty Bite</h3> 
+    </div>
+
+    <!-- Hamburger for mobile -->
+    <div class="hamburger">
+    <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+        <li><a href="../index.html#home" class="nav-item">Home</a></li>
+        <li><a href="../index.html#menu" class="nav-item">Menu</a></li>
+        <li><a href="../index.html#order" class="nav-item">Order</a></li>
+        <li><a href="../index.html#contact" class="nav-item">Contact</a></li>
+        <li><a href="./book-event.html" class="event-btn nav-item">Book Event</a></li>
+    </ul>
+  </nav>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <h1>Tasty Bite Small Chops</h1>
+    <p>Select your favourite Nigerian chops</p>
+  </div>
+</header>
+
+<main class="container" style="padding-top:1rem">
+
+  <!-- GROUP A - Pastries & Baked Snacks -->
+  <div class="group-title">🥧 Group A — Pastries & Baked Snacks</div>
+  <div class="chops-grid" id="group-a">
+    <!-- Meat Pie -->
+    <div class="chop-card"
+         data-group="pastry"
+         data-name="Meat Pie"
+         data-ingredients="Beef, potatoes, carrot, seasoning."
+         data-price-single="2500"
+         data-price-small="6500"
+         data-price-medium="13000"
+         data-price-party="20000"
+         >
+      <img src="./smallchops/meat pie.PNG" alt="Meat Pie">
+      <h3>Meat Pie</h3>
+      <p class="price">₦2,500</p>
+      <p class="small-muted">Single Pack: 3 pieces</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+    <!-- Chicken Pie -->
+    <div class="chop-card"
+         data-group="pastry"
+         data-name="Chicken Pie"
+         data-ingredients="Chicken, mixed veg, light seasoning."
+         data-price-single="2500"
+         data-price-small="6500"
+         data-price-medium="13000"
+         data-price-party="20000"
+         >
+      <img src="./smallchops/chicken pie.PNG" alt="Chicken Pie">
+      <h3>Chicken Pie</h3>
+      <p class="price">₦2,500</p>
+      <p class="small-muted">Single Pack: 3 pieces</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+    <!-- Fish Pie -->
+    <div class="chop-card"
+         data-group="pastry"
+         data-name="Fish Pie"
+         data-ingredients="Fish, mixed veg, light seasoning."
+         data-price-single="2000"
+         data-price-small="6000"
+         data-price-medium="12000"
+         data-price-party="18000"
+         >
+      <img src="./smallchops/fish pie.JPG" alt="Fish Pie">
+      <h3>Fish Pie</h3>
+      <p class="price">₦2,500</p>
+      <p class="small-muted">Single Pack: 3 pieces</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+     <!-- Egg Roll -->
+     <div class="chop-card"
+          data-group="pastry"
+          data-name="Egg Roll"
+          data-ingredients="Egg, minced meat/veg, pepper, spices."
+          data-price-single="1500"
+          data-price-small="4000"
+          data-price-medium="8000"
+          data-price-party="10000"
+     >
+          <img src="./smallchops/egg roll.JPG" alt="Egg Roll">
+          <h3>Egg Roll</h3>
+          <p class="price">₦1,500</p>
+          <p class="small-muted">Single Pack: 2 pieces</p>
+          <button class="select-option">Select Options</button>
+      </div>
+
+     <!-- Doughnut -->
+     <div class="chop-card"
+          data-group="pastry"
+          data-name="Doughnut"
+          data-ingredients="Flour, sugar, oil."
+          data-price-single="900"
+          data-price-small="2700"
+          data-price-medium="6000"
+          data-price-party="10000"
+     >
+          <img src="./smallchops/Doughnut(ordinay).jpg" alt="Doughnut">
+          <h3>Doughnut</h3>
+          <p class="price">₦900</p>
+          <p class="small-muted">Single Pack: 3 pieces</p>
+          <button class="select-option">Select Options</button>
+      </div>
+
+      <!-- Doughnut (Milky) -->
+     <div class="chop-card"
+          data-group="pastry"
+          data-name="Doughnut (Milky)"
+          data-ingredients="Flour, sugar, milk, oil."
+          data-price-single="3000"
+          data-price-small="9000"
+          data-price-medium="15000"
+          data-price-party="25000"
+     >
+          <img src="./smallchops/doughnut.JPG" alt="Doughnut (Milky)">
+          <h3>Doughnut (Milky)</h3>
+          <p class="price">₦3000</p>
+          <p class="small-muted">Single Pack: 3 pieces</p>
+          <button class="select-option">Select Options</button>
+      </div>
+
+       <!-- Cake Slice -->
+     <div class="chop-card"
+          data-group="pastry"
+          data-name="Cake Slice (Vanilla)"
+          data-ingredients="Flour, sugar, butter, eggs."
+          data-price-single="1800"
+          data-price-small="5400"
+          data-price-medium="10,800"
+          data-price-party="20000"
+     >
+          <img src="./smallchops/cake slice.JPG" alt="Cake Slice">
+          <h3>Cake Slice</h3>
+          <p class="price">₦1,800</p>
+          <p class="small-muted">Single Pack: 3 pieces</p>
+          <button class="select-option">Select Options</button>
+      </div>
+
+      
+
+    <!-- Cupcake -->
+    <div class="chop-card"
+         data-group="pastry"
+         data-name="Cupcake (Assorted)"
+         data-ingredients="Butter, sugar, egg, vanilla/chocolate."
+         data-price-single="2400"
+         data-price-small="7200"
+         data-price-medium="14000"
+         data-price-party="25000"
+         >
+      <img src="./smallchops/cupcakes.JPG" alt="Cupcake">
+      <h3>Cupcake (Assorted)</h3>
+      <p class="price">₦2,400</p>
+      <p class="small-muted">Single Pack: 3 pieces</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+    <!-- Mixed Pastries (card) -->
+    <div class="chop-card"
+         data-group="pastry-mix"
+         data-name="Mixed Pastries Tray"
+         data-ingredients="Assorted meat pies, cupcakes, doughnuts."
+         data-price-small="10000"
+         data-price-medium="25000"
+         data-price-party="50000"
+         >
+      <img src="./smallchops/mixed-pastries-tray.JPG" alt="Mixed Pastries">
+      <h3>Mixed Pastries Tray</h3>
+      <p class="price">Small Tray ₦10,000</p>
+      <p class="small-muted">Assorted mini pastries</p>
+      <button class="select-option">Select Options</button>
+    </div>
+  </div>
+
+  <!-- GROUP B - Fried Snacks -->
+  <div class="group-title">🍗 Group B — Fried Snacks & Finger Foods</div>
+  <div class="chops-grid" id="group-b">
+    <!-- Puff Puff -->
+    <div class="chop-card"
+         data-group="fried"
+         data-name="Puff Puff"
+         data-ingredients="Flour, yeast, sugar, oil."
+         data-price-single="1800"
+         data-price-small="5000"
+         data-price-medium="9000"
+         data-price-party="18000"
+         >
+      <img src="./smallchops/puff puff.JPG" alt="Puff Puff">
+      <h3>Puff Puff</h3>
+      <p class="price">₦1800</p>
+      <p class="small-muted">Single Pack: 8–10 pieces</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+    <!-- Buns -->
+    <div class="chop-card"
+         data-group="fried"
+         data-name="Buns"
+         data-ingredients="Flour, milk, egg."
+         data-price-single="2000"
+         data-price-small="5500"
+         data-price-medium="10000"
+         data-price-party="20000"
+         >
+      <img src="./smallchops/buns.JPG" alt="Buns">
+      <h3>Buns</h3>
+      <p class="price">₦2000</p>
+      <p class="small-muted">Single Pack: 8–10 pieces</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+    <!-- Akara (Bean Cake) -->
+    <div class="chop-card"
+         data-group="fried"
+         data-name="Bean Cake (Akara)"
+         data-ingredients="Beans, pepper, onion, salt."
+         data-price-single="2200"
+         data-price-small="6000"
+         data-price-medium="11000"
+         data-price-party="22000"
+         >
+      <img src="./smallchops/bean cake (akara).JPG" alt="Akara">
+      <h3>Bean Cake (Akara)</h3>
+      <p class="price">₦2200</p>
+      <p class="small-muted">Single Pack: 8–10 pieces</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+    <!-- Spring Roll -->
+    <div class="chop-card"
+         data-group="fried"
+         data-name="Spring Roll"
+         data-ingredients="Wrap, vegetables, meat (optional)."
+         data-price-single="2000"
+         data-price-small="5500"
+         data-price-medium="10000"
+         data-price-party="20000"
+         >
+      <img src="./smallchops/spring roll.JPG" alt="Spring Roll">
+      <h3>Spring Roll</h3>
+      <p class="price">₦2000</p>
+      <p class="small-muted">Single Pack: 8–10 pieces</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+    <!-- Samosa -->
+    <div class="chop-card"
+         data-group="fried"
+         data-name="Samosa"
+         data-ingredients="Potato, peas, spices, pastry."
+         data-price-single="2000"
+         data-price-small="5500"
+         data-price-medium="10000"
+         data-price-party="20000"
+         >
+      <img src="./smallchops/samosa.JPG" alt="Samosa">
+      <h3>Samosa</h3>
+      <p class="price">₦2000</p>
+      <p class="small-muted">Single Pack: 8–10 pieces</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+
+    <!-- Mixed Fried Tray -->
+    <div class="chop-card"
+         data-group="fried-mix"
+         data-name="Mixed Fried Tray"
+         data-ingredients="Puff puff, samosa, spring roll, chicken pieces."
+         data-price-small="8000"
+         data-price-medium="24000"
+         data-price-party="48000"
+         >
+      <img src="./smallchops/mixed-fried-tray.JPG" alt="Mixed Fried">
+      <h3>Mixed Fried Tray</h3>
+      <p class="price">Small Tray ₦8,000</p>
+      <p class="small-muted">Assorted fried snacks</p>
+      <button class="select-option">Select Options</button>
+    </div>
+  </div>
+
+  <!-- GROUP C - Shawarma -->
+  <div class="group-title">🌯 Group C — Shawarma & Specials</div>
+  <div class="chops-grid" id="group-c">
+    <!-- Chicken Shawarma -->
+    <div class="chop-card"
+         data-group="shawarma"
+         data-name="Chicken Shawarma"
+         data-ingredients="Grilled chicken, garlic sauce, veggies, wrap."
+         data-price-singlewrap="3500"
+         data-price-combobowl="6000"
+         data-price-party="15000"
+         >
+      <img src="./smallchops/shawarma(chicken).jpg" alt="Chicken Shawarma">
+      <h3>Chicken Shawarma</h3>
+      <p class="price">₦3,500</p>
+      <p class="small-muted">Single Wrap</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+    <!-- Beef Shawarma -->
+    <div class="chop-card"
+         data-group="shawarma"
+         data-name="Beef Shawarma"
+         data-ingredients="Grilled beef, special sauce, veggies, wrap."
+         data-price-singlewrap="3000"
+         data-price-combobowl="5000"
+         data-price-party="13000"
+         >
+      <img src="./smallchops/shawarma(beef).jpg" alt="Beef Shawarma">
+      <h3>Beef Shawarma</h3>
+      <p class="price">₦3,000</p>
+      <p class="small-muted">Single Wrap</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+    <!-- Mixed Shawarma -->
+    <div class="chop-card"
+         data-group="shawarma"
+         data-name="Mixed Shawarma (Chicken + Beef)"
+         data-ingredients="Chicken + Beef mix, sauces, veggies."
+         data-price-singlewrap="4500"
+         data-price-combobowl="8000"
+         data-price-party="20000"
+         >
+      <img src="./smallchops/shawarma(mixed).jpg" alt="Mixed Shawarma">
+      <h3>Mixed Shawarma</h3>
+      <p class="price">₦4,500</p>
+      <p class="small-muted">Single Wrap</p>
+      <button class="select-option">Select Options</button>
+    </div>
+
+    
+
+</main>
+
+<!-- === MODAL (same classes you use -> minimal structural change) === -->
+<div class="modal-overlay hidden">
+  <div class="modal">
+    <span class="close-btn">&times;</span>
+
+
+
+    <div class="modal-content">
+      <div class="modal-left">
+        <img src="placeholder.jpg" alt="Selected item" class="modal-img">
+      </div>
+
+      <div class="modal-details">
+        <h2>Item name</h2>
+        <p class="modal-price">₦0</p>
+
+        <label for="modal-size">Size:</label>
+        <select id="modal-size" class="modal-size">
+          <!-- populated dynamically -->
+        </select>
+
+        <label for="modal-qty">Quantity:</label>
+        <div class="qty-wrapper">
+          <button class="qty-btn minus">−</button>
+          <input type="number" class="modal-qty" min="1" value="1">
+          <button class="qty-btn plus">+</button>
+        </div>
+
+        <button class="modal-order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <!-- Ingredients (outside columns) -->
+    <div class="modal-ingredients"></div>
+
+    <!-- REVIEW -->
+    <div class="review-section">
+      <h3>Customer Reviews</h3>
+      <div class="reviews-list" id="reviews-list">
+        <p class="no-reviews">No reviews yet. Be the first to share your thoughts!</p>
+      </div>
+
+      <h4 style="text-align:center;margin-top:8px">Leave a Review</h4>
+      <form id="review-form" style="display:flex;flex-direction:column;align-items:center;gap:10px;margin-top:8px">
+        <div class="star-rating" style="display:flex;justify-content:center">
+          <span class="star" data-value="1">★</span>
+          <span class="star" data-value="2">★</span>
+          <span class="star" data-value="3">★</span>
+          <span class="star" data-value="4">★</span>
+          <span class="star" data-value="5">★</span>
+        </div>
+
+        <input type="text" id="reviewer-name" placeholder="Your name" style="width:92%;padding:10px;border-radius:6px;border:1px solid #ddd" required>
+        <textarea id="review-text" placeholder="Write your review..." style="width:92%;padding:10px;border-radius:6px;border:1px solid #ddd;min-height:80px" required></textarea>
+        <button type="submit" class="submit-review" style="background:#222;color:#fff;padding:10px 20px;border-radius:6px;border:0">Submit Review</button>
+      </form>
+    </div>
+
+    <!-- footer inside modal -->
+    <footer id="contact">
+      <h2>Contact Us</h2>
+    
+      <div class="footer-content">
+        <p>📧 <a href="mailto:tastybites@gmail.com">tastybites@gmail.com</a></p>
+        <p> <a href="tel:09163991308">📞 09163991308 | 📍 Lagos, Nigeria</a></p>
+    
+        <div class="socials">
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>&copy; 2025 <span>Tasty Bite</span>. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+</div>
+
+<footer id="contact">
+  <h2>Contact Us</h2>
+
+  <div class="footer-content">
+    <p>📧 <a href="mailto:tastybites@gmail.com">tastybites@gmail.com</a></p>
+    <p> <a href="tel:09163991308">📞 09163991308 | 📍 Lagos, Nigeria</a></p>
+
+    <div class="socials">
+      <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 <span>Tasty Bite</span>. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/234XXXXXXXXXX" class="whatsapp-float" target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Back to Top Button -->
+<button id="backToTop" title="Go to top">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+    <path d="M5 15l7-7 7 7"/>
+  </svg>
+</button>
+
+<script src="smallchops-category.js"></script>
+<script src="../script.js"></script>
+</body>
+</html>

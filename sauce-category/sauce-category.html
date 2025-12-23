@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tasty Bite | Sauce Menu</title>
+  <link rel="stylesheet" href="sauce-category.css" />
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <button class="back-btn" onclick="goBack()"> 
+    <img src="../logo/arrow.left.png" alt="arrow" class="arrow"> 
+  </button>
+
+  
+    <!-- Hamburger for mobile -->
+     <!-- NAVBAR (separate section at the very top) -->
+  <nav class="navbar">
+    
+    <div class="brand">
+      <img class="logo" src="../logo/Tasty bites logo-cot.png" alt="logo">
+      <h3>Tasty Bite</h3> 
+    </div>
+
+    <!-- Hamburger for mobile -->
+    <div class="hamburger">
+    <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+        <li><a href="../index.html#home" class="nav-item">Home</a></li>
+        <li><a href="../index.html#menu" class="nav-item">Menu</a></li>
+        <li><a href="../index.html#order" class="nav-item">Order</a></li>
+        <li><a href="../index.html#contact" class="nav-item">Contact</a></li>
+        <li><a href="./book-event.html" class="event-btn nav-item">Book Event</a></li>
+    </ul>
+  </nav>
+
+  <!-- === HEADER === -->
+  <header class="header">
+    <h1>Tasty Bite Sauce</h1>
+    <p>Select your favorite Nigerian Sauce</p>
+  </header>
+
+  <!-- === SOUP GRID === -->
+<section class="soup-container">
+
+  <!-- 1 -->
+  <div class="soup-card" 
+       data-soup="Ofada Sauce"
+       data-ingredients="Assorted meat, palm oil, locust beans, green pepper, onions, seasoning."
+       data-price1="9000"
+       data-price3="27000"
+       data-price5="45000">
+    <img src="./sauces/ofada sauce.JPG" alt="Ofada Sauce" class="soup-image">
+    <h3 class="soup-name">Ofada Sauce</h3>
+    <p class="soup-price-range">₦9,000 - ₦45,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 2 -->
+  <div class="soup-card"
+       data-soup="Goat Meat Sauce"
+       data-ingredients="Goat meat, tomatoes, chili pepper, onions, spices."
+       data-price1="8500"
+       data-price3="25500"
+       data-price5="42500">
+    <img src="./sauces/goat meat sauces.JPG" alt="Goat Meat Sauce" class="soup-image">
+    <h3 class="soup-name">Goat Meat Sauce</h3>
+    <p class="soup-price-range">₦8,500 - ₦42,500</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 3 -->
+  <div class="soup-card"
+       data-soup="Beef Sauce"
+       data-ingredients="Beef Chunks, bell peppers, onions, curry, thyme,seasoning."
+       data-price1="9000"
+       data-price3="27000"
+       data-price5="45000">
+    <img src="./sauces/beef sauce.JPG" alt="Beef Sauce" class="soup-image">
+    <h3 class="soup-name">Beef Sauce</h3>
+    <p class="soup-price-range">₦9,000 - ₦45,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 4 -->
+  <div class="soup-card"
+       data-soup="Chicken Sauce"
+       data-ingredients="Chicken breast/thigh, sweet pepper mix, onions, garlic, seasoning."
+       data-price1="9000"
+       data-price3="27000"
+       data-price5="45000">
+    <img src="./sauces/chicken sauce.JPG" alt="Chicken Sauce" class="soup-image">
+    <h3 class="soup-name">Chicken Sauce</h3>
+    <p class="soup-price-range">₦9,000 - ₦45,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 5 -->
+  <div class="soup-card"
+       data-soup="Egg Sauce"
+       data-ingredients="Eggs, tomatoes, onions, pepper, vegetable oil, salt."
+       data-price1="6000"
+       data-price3="18000"
+       data-price5="30000">
+    <img src="./sauces/egg sauces.JPG" alt="Egg Sauce" class="soup-image">
+    <h3 class="soup-name">Egg Sauce</h3>
+    <p class="soup-price-range">₦6,000 - ₦30,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 6 -->
+  <div class="soup-card"
+       data-soup="Shrimp Sauce"
+       data-ingredients="Shrimps, garlic, bell peppers, tomatoes, onions, pepper, seasoning."
+       data-price1="5000"
+       data-price3="15000"
+       data-price5="25000">
+    <img src="./sauces/shrimp sauce.JPG" alt="Shrimp Sauce" class="soup-image">
+    <h3 class="soup-name">Shrimp Sauce</h3>
+    <p class="soup-price-range">₦5,000 - ₦25,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  <!-- 7 -->
+  <div class="soup-card"
+       data-soup="Turkey Sauces"
+       data-ingredients="Fresh turkey, blended tomatoes & peppers, onions, vegetable oil, garlic, seasoning."
+       data-price1="9000"
+       data-price3="2700"
+       data-price5="45000">
+    <img src="./sauces/turkey sauce.JPG" alt="Turkey Sauces" class="soup-image">
+    <h3 class="soup-name">Turkey Sauces</h3>
+    <p class="soup-price-range">₦9,000 - ₦45,000</p>
+    <button class="select-option">Select Options</button>
+  </div>
+
+  
+
+</section>
+
+
+  <!-- === MODAL === -->
+<div class="modal-overlay hidden">
+  <div class="modal">
+    <span class="close-btn">&times;</span>
+
+    <div class="modal-content">
+      <div class="modal-left">
+        <img src="egusi.jpg" alt="Soup Image" class="modal-img" />
+      </div>
+
+      <div class="modal-right modal-details">
+        <h2>Egusi Soup</h2>
+        <p class="modal-price">₦8,000</p>
+
+        <label for="modal-size">Size:</label>
+        <select id="modal-size" class="modal-size">
+          <option>1 Litre</option>
+          <option>3 Litres</option>
+          <option>5 Litres</option>
+        </select>
+
+        <label for="modal-qty">Quantity:</label>
+        <div class="qty-wrapper">
+          <button class="qty-btn minus">−</button>
+          <input type="number" class="modal-qty" min="1" value="1">
+          <button class="qty-btn plus">+</button>
+        </div>
+
+        <button class="modal-order-btn">Order Now</button>
+      </div> <!-- CLOSES modal-right -->
+    </div> <!-- CLOSES modal-content -->
+
+    <!-- ✅ ingredients section OUTSIDE modal-content -->
+    <div class="modal-ingredients"></div>
+
+<!-- === REVIEW SECTION === -->
+  <div class="review-section">
+    <h3>Customer Reviews</h3>
+    <div class="reviews-list" id="reviews-list">
+      <p class="no-reviews">No reviews yet. Be the first to share your thoughts!</p>
+    </div>
+
+    <h4>Leave a Review</h4>
+    <form id="review-form">
+      <div class="star-rating">
+        <span class="star" data-value="1">★</span>
+        <span class="star" data-value="2">★</span>
+        <span class="star" data-value="3">★</span>
+        <span class="star" data-value="4">★</span>
+        <span class="star" data-value="5">★</span>
+      </div>
+
+      <input type="text" id="reviewer-name" placeholder="Your name" required>
+      <textarea id="review-text" placeholder="Write your review..." required></textarea>
+      <button type="submit" class="submit-review">Submit Review</button>
+    </form>
+  </div>
+
+
+  <footer id="contact">
+    <h2>Contact Us</h2>
+
+    <div class="footer-content">
+      <p>📧 <a href="mailto:tastybites@gmail.com">tastybites@gmail.com</a></p>
+      <p> <a href="tel:09163991308">📞 09163991308 | 📍 Lagos, Nigeria</a></p>
+
+      <div class="socials">
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 <span>Tasty Bite</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  </div>
+</div>
+
+
+<footer id="contact">
+  <h2>Contact Us</h2>
+
+  <div class="footer-content">
+    <p>📧 <a href="mailto:tastybites@gmail.com">tastybites@gmail.com</a></p>
+    <p> <a href="tel:09163991308">📞 09163991308 | 📍 Lagos, Nigeria</a></p>
+
+    <div class="socials">
+      <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 <span>Tasty Bite</span>. All rights reserved.</p>
+  </div>
+</footer>
+
+ <!-- Floating WhatsApp Button -->
+ <a href="https://wa.me/234XXXXXXXXXX" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+  </a>
+
+<!-- Back to Top Button -->
+<button id="backToTop" title="Go to top">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+    <path d="M5 15l7-7 7 7"/>
+  </svg>
+</button>
+
+
+<script src="sauce-category.js"></script>
+<script src="../script.js"></script>
+</body>
+</html>
